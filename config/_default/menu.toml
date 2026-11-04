@@ -1,0 +1,39 @@
+# ==========================================
+# 左侧导航菜单配置
+# ==========================================
+
+# 菜单项 1：主页
+[[main]]
+  identifier = "home"             # 唯一标识符，不能重复
+  name = "主页"                   # 菜单上显示的文本
+  url = "/"                       # 链接地址
+  weight = 1                      # 排序权重，数字越小越靠前
+  [main.params]
+    icon = "home"                 # 图标名称（对应 Tabler Icons 的图标，如 home, user, tags）
+
+# 菜单项 2：归档
+# [[main]]
+#  identifier = "archives"
+#  name = "归档"
+#  url = "/archives/"
+#  weight = 2
+#  [main.params]
+#    icon = "archives"             # 档案盒图标
+
+# 菜单项 3：搜索
+# [[main]]
+#  identifier = "search"
+#  name = "搜索"
+#  url = "/search/"
+#  weight = 3
+#  [main.params]
+#    icon = "search"               # 放大镜图标
+
+# 菜单项 4：关于（如果你有 content/about/index.md 可以开启）
+# [[main]]
+#   identifier = "about"
+#   name = "关于"
+#   url = "/about/"
+#   weight = 4
+#   [main.params]
+#     icon = "user"               # 用户图标

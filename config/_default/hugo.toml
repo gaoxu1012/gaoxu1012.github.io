@@ -1,0 +1,29 @@
+
+# ==========================================
+# 基础站点设置 (Site Settings)
+# ==========================================
+baseURL = 'https://gaoxu1012.github.io/'  # 网站最终部署的域名（本地预览不影响）
+title = '旭小九的生存实录'         # 网站的全局标题
+theme = ''                        # 使用 Hugo Modules 时，此处必须留空
+
+# ==========================================
+# 语言与内容设置 (Language & Content)
+# ==========================================
+defaultContentLanguage = 'zh'     # 默认语言设为中文 (对应 languages.toml 里的 [zh])
+hasCJKLanguage = true             # 开启中日韩文字优化（自动在中文和英文之间加空格，且字数统计更准确）
+enableGitInfo = true              # 开启 Git 信息（自动获取文章的“最后修改时间”，前提是项目初始化了 Git）
+
+# ==========================================
+# 模块导入 (Hugo Modules)
+# ==========================================
+[[module.imports]]
+  path = "github.com/CaiJimmy/hugo-theme-stack/v4"  # 导入 Stack 主题 v4 版本
+
+# ==========================================
+# Markdown 渲染与代码高亮 (Markup)
+# ==========================================
+[markup.highlight]
+  noClasses = false               # 设为 false 配合 Stack 主题的代码高亮样式（否则代码块可能没有颜色）
+
+[markup.goldmark.renderer]
+  unsafe = true                   # 允许在 Markdown 中直接写 HTML 标签（比如嵌入视频、iframe 等）
