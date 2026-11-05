@@ -5,11 +5,11 @@
         <description>Recent content on 旭小九的生存实录</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Thu, 05 Nov 2026 22:16:16 +0800</lastBuildDate><atom:link href="https://gaoxu1012.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 05 Nov 2026 22:40:33 +0800</lastBuildDate><atom:link href="https://gaoxu1012.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>First Post</title>
             <link>https://gaoxu1012.github.io/post/first-post/</link>
             <pubDate>Thu, 05 Nov 2026 22:16:16 +0800</pubDate>
             <guid>https://gaoxu1012.github.io/post/first-post/</guid>
-            <description>&lt;p&gt;这是测试文件&lt;/p&gt;&#xA;</description>
+            <description>&lt;p&gt;这是测试文件&#xA;测试插件效果&#xA;插件测试失败&lt;/p&gt;&#xA;</description>
         </item></channel>
 </rss>
