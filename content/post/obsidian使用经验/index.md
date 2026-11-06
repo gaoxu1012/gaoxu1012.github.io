@@ -4,7 +4,7 @@ draft = false
 title = '十五分钟快速上手obsidian'
 type = "post"
 categories = ["杂谈"]
-image = "./assets/img/cover.jpg"
+image = "cover.jpg"
 +++
 
 - 批注
