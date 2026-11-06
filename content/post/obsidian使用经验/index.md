@@ -2,6 +2,7 @@
 date = '2026-11-05T22:16:16+08:00'
 draft = false
 title = '十五分钟快速上手obsidian'
+type = "post"
 categories = ["杂谈"]
 +++
 - 批注
