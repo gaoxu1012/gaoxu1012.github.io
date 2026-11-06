@@ -4,7 +4,9 @@ draft = false
 title = '十五分钟快速上手obsidian'
 type = "post"
 categories = ["杂谈"]
+image = "./assets/img/cover.jpg"
 +++
+
 - 批注
 	- 请先自行通过视频直观了解如何新建笔记、文件夹、拖拽、打开设置等等基础操作
 	- 面向新手，不搞插件，只提供一套相对通用的笔记管理系统
