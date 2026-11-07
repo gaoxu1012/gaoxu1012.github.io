@@ -3,7 +3,8 @@ date = '2026-11-05T22:16:16+08:00'
 draft = false
 title = '十五分钟快速上手obsidian'
 type = "post"
-categories = ["杂谈"]
+categories = [""]
+tags = ["obsidian","知识管理"]
 image = "cover.jpg"
 description = "面向新手，不搞插件，适用于初期不擅长管理和深度加工知识时，用一套通用的笔记管理系统避免信息无序堆积。(基于本人长期摆烂堆叠文件，突发恶疾式整理，未遂，后多次删库，而今悔不当初的血泪之谈)"
 +++

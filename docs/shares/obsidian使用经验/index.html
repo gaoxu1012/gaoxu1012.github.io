@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="面向新手，不搞插件，适用于初期不擅长管理和深度加工知识时，用一套通用的笔记管理系统避免信息无序堆积。(基于本人长期摆烂堆叠文件，突发恶疾式整理，未遂，后多次删库，而今悔不当初的血泪之谈)">
+<title>十五分钟快速上手obsidian</title>
+
+
+<link rel="canonical" href="https://gaoxu1012.github.io/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+
+
+<link rel="stylesheet" href="/scss/style.min.6c875234350e518395efbf51958523b0852fb2215ab8cb81358f9317153eba2d.css"><meta property='og:title' content="十五分钟快速上手obsidian">
+<meta property='og:description' content="面向新手，不搞插件，适用于初期不擅长管理和深度加工知识时，用一套通用的笔记管理系统避免信息无序堆积。(基于本人长期摆烂堆叠文件，突发恶疾式整理，未遂，后多次删库，而今悔不当初的血泪之谈)">
+<meta property='og:url' content='https://gaoxu1012.github.io/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/'>
+<meta property='og:site_name' content='旭小九的生存实录'>
+<meta property='og:type' content='article'><meta property='article:section' content='Shares' /><meta property='article:tag' content='obsidian' /><meta property='article:tag' content='知识管理' /><meta property='article:published_time' content='2026-11-05T22:16:16&#43;08:00'/><meta property='article:modified_time' content='2026-11-05T22:16:16&#43;08:00'/><meta property='og:image' content='https://gaoxu1012.github.io/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/cover.jpg' />
+<meta name="twitter:title" content="十五分钟快速上手obsidian">
+<meta name="twitter:description" content="面向新手，不搞插件，适用于初期不擅长管理和深度加工知识时，用一套通用的笔记管理系统避免信息无序堆积。(基于本人长期摆烂堆叠文件，突发恶疾式整理，未遂，后多次删库，而今悔不当初的血泪之谈)"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://gaoxu1012.github.io/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/cover.jpg' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="/img/avatar.png" 
+                        width="0"
+                        height="0"
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">旭小九的生存实录</a></h1>
+            <h2 class="site-description">言者所以在言，得意而忘言</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/essays/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>杂谈</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current'>
+            <a href='/shares/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>分享</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/notes/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>闲言碎语</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+    <div class="article-image">
+        <a href="/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/">
+            <img alt="Featured image of post 十五分钟快速上手obsidian" height="579" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/cover.jpg" srcset="/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/cover_hu_ff7b5a7eddcd3bf5.jpg 800w, /shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/cover.jpg 1200w" width="1200">
+        </a>
+    </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/">十五分钟快速上手obsidian</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            面向新手，不搞插件，适用于初期不擅长管理和深度加工知识时，用一套通用的笔记管理系统避免信息无序堆积。(基于本人长期摆烂堆叠文件，突发恶疾式整理，未遂，后多次删库，而今悔不当初的血泪之谈)
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    <footer class="article-meta">
+        
+            <div class="inline-meta">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published" datetime='2026-11-05T22:16:16&#43;08:00'>2026年11月5日星期四</time>
+                
+
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                    <time class="article-time--reading">
+                        阅读时长: 2 分钟
+                    </time>
+                
+            </div>
+        
+
+        
+
+        
+    </footer>
+    
+</div>
+
+</header>
+
+    
+
+    <section class="article-content">
+    
+    
+    <h1 id="文件夹结构"><a href="#%e6%96%87%e4%bb%b6%e5%a4%b9%e7%bb%93%e6%9e%84" class="header-anchor"></a>文件夹结构
+</h1><ul>
+<li>思路
+<ul>
+<li>编码：（字母-01~99-笔记名）字母代表文件夹层级，数字用于文件排序。这套标准相当死板，所以搭起骨架后日常笔记并不需要刻意编码，而是通过双链建立中心化入口的，以下会介绍项目文件夹结构。</li>
+<li>PARA法
+<ul>
+<li>P——project项目文件夹
+<ul>
+<li>有明确目标，可完成的笔记</li>
+</ul>
+</li>
+<li>A——areas领域文件夹
+<ul>
+<li>长期维持的项目，如日记、博客、语言学习等等</li>
+</ul>
+</li>
+<li>R——resources资源文件夹
+<ul>
+<li>收集的有价值的电子资源，如电子书、网页或视频连接</li>
+</ul>
+</li>
+<li>A——archives归档文件夹
+<ul>
+<li>完成的项目、暂停的领域</li>
+</ul>
+</li>
+<li>索引文件夹——笔记的中心化入口，用于查找笔记</li>
+</ul>
+</li>
+<li>侧边栏笔记——拖动到右侧边栏便于查看
+<ul>
+<li>草稿：临时记录成形的想法，若是寻找灵感建议记日记</li>
+<li>设置：记录实际使用到的快捷键、文件属性，标签，工作流等等便于统一笔记形式</li>
+<li>短句：记录金句、诗词等等</li>
+<li>备忘录：我会记录细碎但不太重要的账号和密码</li>
+<li>任务列表：记录目标，截止日期等等，足以应对初级的任务管理</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img alt="文件夹结构示例" class="gallery-image" data-flex-basis="130px" data-flex-grow="54" height="548" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/assets/img/pic1.png" width="297"></p>
+<h1 id="文件设置"><a href="#%e6%96%87%e4%bb%b6%e8%ae%be%e7%bd%ae" class="header-anchor"></a>文件设置
+</h1><ul>
+<li>默认打开文件：01-草稿（便于随手记录碎片信息，方便后期整理）（个人不选择日记，因为我不是天天写日记）</li>
+<li>新建笔记放入A-01-项目（个人习惯，使得PARA文件夹目录保持整洁）</li>
+<li>附件放在子文件夹，跟随项目移动。</li>
+</ul>
+<p><img alt="文件设置示例" class="gallery-image" data-flex-basis="302px" data-flex-grow="126" height="694" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/assets/img/pic2.png" srcset="/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/assets/img/pic2_hu_cc6f075616cff433.png 800w, /shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/assets/img/pic2.png 876w" width="876"></p>
+<h1 id="日记设置"><a href="#%e6%97%a5%e8%ae%b0%e8%ae%be%e7%bd%ae" class="header-anchor"></a>日记设置
+</h1><ul>
+<li>模板根据个人情况更改“01-日记模板”，建议添加（属性|日记）</li>
+</ul>
+<p><img alt="日记设置示例" class="gallery-image" data-flex-basis="302px" data-flex-grow="126" height="694" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/assets/img/pic3.png" srcset="/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/assets/img/pic3_hu_551708cc54b87574.png 800w, /shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/assets/img/pic3.png 876w" width="876"></p>
+<h1 id="项目文件夹结构"><a href="#%e9%a1%b9%e7%9b%ae%e6%96%87%e4%bb%b6%e5%a4%b9%e7%bb%93%e6%9e%84" class="header-anchor"></a>项目文件夹结构
+</h1><ul>
+<li>以下是我实际使用的展示，仅展示思路
+<ul>
+<li>索引——@（项目名称）eg：@obsidian使用经验，即是右边笔记内容，通过双链形式做成项目笔记的中心化入口，其余项目笔记只需要放在该项目文件夹中。</li>
+<li>附件——存储笔记中的图片，若有强相关的电子资料书资源（例如《第二大脑》）我也会放里面</li>
+</ul>
+</li>
+</ul>
+<p><img alt="实际使用示例" class="gallery-image" data-flex-basis="323px" data-flex-grow="134" height="743" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/assets/img/pic4.png" srcset="/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/assets/img/pic4_hu_b835ce4766e279a.png 800w, /shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/assets/img/pic4.png 1000w" width="1000"></p>
+<h1 id="markdown语法精简"><a href="#markdown%e8%af%ad%e6%b3%95%e7%b2%be%e7%ae%80" class="header-anchor"></a>Markdown语法精简
+</h1><p>添加笔记属性：笔记开头三个短横线&mdash;（注：必须单独在笔记第一行）</p>
+<p>N个#加空格代表N级标题</p>
+<p><strong>加粗</strong>：两个星号**包裹</p>
+<p><em>斜体</em>：一个星号*包裹</p>
+<p>==画线==：两个==包裹</p>
+<p><del>删除线</del>：两个波浪线</p>
+<ol>
+<li>有序列表:数字加点.加空格</li>
+</ol>
+<ul>
+<li>
+<p>无序列表：短横线-加点.</p>
+<p>列表嵌套缩进TAB键，删除缩进SHIFT加TAB键</p>
+</li>
+<li>
+<p>碎碎念：</p>
+<ul>
+<li>恭喜你已经初步入门了obsidian，这套PARA+编码系统足以应对前期笔记量较少的阶段，后续可以进行适当美化，跟随工作流的需要选用一些插件。不过，比起如何设置软件，我们更需要思考要记录什么？如果无从下手，大可以打开日记，简单记录当下正在发生什么，不必在意写下来的文字是否有价值，当你开始记录的时候，觉察的动作便会自然发生。</li>
+</ul>
+</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-meta article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/obsidian/">Obsidian</a>
+        
+            <a href="/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/">知识管理</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+
+        <div class="disqus-container">
+    
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2026 旭小九的生存实录
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="4.0.3">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.f856840516f7c2ad1769a8f5937e3d08d6cb386e2cd2dd025ae696e0ff207958.js" defer></script>
+
+
+    </body>
+</html>

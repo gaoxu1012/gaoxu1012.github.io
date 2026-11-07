@@ -4,7 +4,7 @@
 # ==========================================
 baseURL = 'https://gaoxu1012.github.io/'  # 网站最终部署的域名（本地预览不影响）
 title = '旭小九的生存实录'         # 网站的全局标题
-theme = ''                        # 使用 Hugo Modules 时，此处必须留空
+# theme = ''                        # 使用 Hugo Modules 时，此处必须留空
 
 publishDir = "docs"              # 为github同步将默认public改为docs文件夹
 

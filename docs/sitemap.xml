@@ -2,24 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gaoxu1012.github.io/categories/</loc>
+    <loc>https://gaoxu1012.github.io/essays/%E5%85%B3%E4%BA%8E%E6%94%B9%E5%91%BD/</loc>
+    <lastmod>2026-11-07T09:43:36+08:00</lastmod>
+  </url><url>
+    <loc>https://gaoxu1012.github.io/</loc>
+    <lastmod>2026-11-07T09:43:36+08:00</lastmod>
+  </url><url>
+    <loc>https://gaoxu1012.github.io/essays/</loc>
+    <lastmod>2026-11-07T09:43:36+08:00</lastmod>
+  </url><url>
+    <loc>https://gaoxu1012.github.io/essays/%E5%86%99%E7%BB%99%E7%AC%94%E5%8F%8B%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1/</loc>
+    <lastmod>2026-11-07T09:37:50+08:00</lastmod>
+  </url><url>
+    <loc>https://gaoxu1012.github.io/essays/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9C%A8%E5%A4%A7%E5%AD%A6%E7%9A%84%E6%94%B9%E5%8F%98/</loc>
+    <lastmod>2026-11-07T09:25:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gaoxu1012.github.io/tags/obsidian/</loc>
     <lastmod>2026-11-05T22:16:16+08:00</lastmod>
   </url><url>
     <loc>https://gaoxu1012.github.io/post/</loc>
     <lastmod>2026-11-06T13:47:48+08:00</lastmod>
   </url><url>
+    <loc>https://gaoxu1012.github.io/tags/</loc>
+    <lastmod>2026-11-05T22:16:16+08:00</lastmod>
+  </url><url>
     <loc>https://gaoxu1012.github.io/post/first-post/</loc>
     <lastmod>2026-11-06T13:47:48+08:00</lastmod>
   </url><url>
-    <loc>https://gaoxu1012.github.io/post/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</loc>
+    <loc>https://gaoxu1012.github.io/shares/</loc>
     <lastmod>2026-11-05T22:16:16+08:00</lastmod>
   </url><url>
-    <loc>https://gaoxu1012.github.io/</loc>
-    <lastmod>2026-11-06T13:47:48+08:00</lastmod>
-  </url><url>
-    <loc>https://gaoxu1012.github.io/categories/%E6%9D%82%E8%B0%88/</loc>
+    <loc>https://gaoxu1012.github.io/shares/obsidian%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</loc>
     <lastmod>2026-11-05T22:16:16+08:00</lastmod>
   </url><url>
-    <loc>https://gaoxu1012.github.io/tags/</loc>
+    <loc>https://gaoxu1012.github.io/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2026-11-05T22:16:16+08:00</lastmod>
+  </url><url>
+    <loc>https://gaoxu1012.github.io/categories/</loc>
+  </url><url>
+    <loc>https://gaoxu1012.github.io/notes/</loc>
   </url>
 </urlset>
